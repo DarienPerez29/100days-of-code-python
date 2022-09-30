@@ -4,7 +4,11 @@ This is a challenge/course of [100 days of code in Python](https://www.udemy.com
 
 I'll share my projects and programs in this repo, so I can use them as evidence to get a nice job in the future. Probably the most elaborated/complex projects of this challenge will get their own repo, but I will also include them in this repo so I can have everything in order.
 
+## About projects
+Some of the first projects can be tried via Replit on any web browser. You can find more info about it in each project.
+
 ## Progress
 
 | Day | Date | Final project's name | Learned |
 | --- | --- | --- | --- |
+| 001 | 09/24/2022 | [Band name generator](/projects/Day001/) | Printing, string manipulation, variables, variable naming, inputs.
