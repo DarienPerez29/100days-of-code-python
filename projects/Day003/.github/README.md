@@ -8,4 +8,4 @@ Today I've decided to include some challenges of the course. Today's challenges 
 
 | # | Name | Description of challenge |
 | --- | --- | --- |
-| 1 | Odd or Even | This program takes a number and determines if is odd or even |
+| 1 | [Odd or Even](../challenges/challenge1.py) | This program takes a number and determines if is odd or even |
