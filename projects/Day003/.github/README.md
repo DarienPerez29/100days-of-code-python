@@ -1,6 +1,8 @@
 # Day 003 project - Treasure Island Game
 
-This is a little terminal game in which you have to make decisions to get the treasure. If you take the wrong decisions, you might die (game over). Just luck and replay are required to win, no logic whatsoever is needed.
+This is a little terminal game in which you have to make decisions to get the treasure. If you take the wrong decisions, you might die (game over). Just luck and replay are required to win, no logic whatsoever is needed. Try it [here](https://replit.com/@DarienPerez29/treasure-map-game?embed=1&output=1).
+
+![Cover](cover.png)
 
 ## Challenges
 
@@ -15,3 +17,7 @@ Today I've decided to include some challenges of the course. Today's challenges 
 | 5 | [Love Calculator](../challenges/challenge5.py) | This program test the "compatibility between two people" by the letters of their names. |
 
 <span style="color:gray">*You can ignore **practice** directory, just contains a few random programs to practice some concepts.*</span>
+
+## Try it
+
+You can try the project via Replit [here](https://replit.com/@DarienPerez29/treasure-map-game?embed=1&output=1), you just need a web browser.
