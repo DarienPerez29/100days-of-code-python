@@ -12,3 +12,4 @@ Today I've decided to include some challenges of the course. Today's challenges 
 | 2 | [BMI Calculator 2.0](../challenges/challenge2.py) | This program determines the BMI based on the user's weight and height and then interprets it. |
 | 3 | [Leap Year](../challenges/challenge3.py) | This program takes a year and determines if is a leap year or a normal year. |
 | 4 | [Pizza Order Practice](../challenges/challenge4.py) | This program simulates a pizza order program. |
+| 5 | [Love Calculator](../challenges/challenge5.py) | This program test the "compatibility between two people" by the letters of their names. |
