@@ -6,7 +6,7 @@ This project consists of a name band generator via terminal that combines the na
 
 ## Try it
 
-Try the project via Replit [here](https://replit.com/@DarienPerez29/band-name-generator?embed=1&output=1), you just need a web browser.
+You can try the project via Replit [here](https://replit.com/@DarienPerez29/band-name-generator?embed=1&output=1), you just need a web browser.
 
 ## More info
 
