@@ -13,3 +13,5 @@ Today I've decided to include some challenges of the course. Today's challenges 
 | 3 | [Leap Year](../challenges/challenge3.py) | This program takes a year and determines if is a leap year or a normal year. |
 | 4 | [Pizza Order Practice](../challenges/challenge4.py) | This program simulates a pizza order program. |
 | 5 | [Love Calculator](../challenges/challenge5.py) | This program test the "compatibility between two people" by the letters of their names. |
+
+<span style="color:gray">*You can ignore **practice** directory, just contains a few random programs to practice some concepts.*</span>
