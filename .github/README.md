@@ -11,4 +11,5 @@ Some of the first projects can be tried via Replit on any web browser. You can f
 
 | Day | Date | Final project's name | Learned |
 | --- | --- | --- | --- |
-| 001 | 09/24/2022 | [Band name generator](/projects/Day001/) | Printing, string manipulation, variables, variable naming, inputs.
+| 001 | 09/24/2022 | [Band name generator](/projects/Day001/) | Printing, string manipulation, variables, variable naming, inputs. |
+| 002 | 10/24/2022 | [Tip calculator](/projects/Day002/) | Primitive data types, type error, type checking, type conversion, mathematical operations, number manipulation, f strings. |
