@@ -14,3 +14,4 @@ Some of the first projects can be tried via Replit on any web browser. You can f
 | 001 | 09/24/2022 | [Band name generator](/projects/Day001/) | Printing, string manipulation, variables, variable naming, inputs. |
 | 002 | 09/25/2022 | [Tip calculator](/projects/Day002/) | Primitive data types, type error, type checking, type conversion, mathematical operations, number manipulation, f strings. |
 | 003 | 09/26/2022 | [Treasure Island](/projects/Day003/) | If / else and conditional operators, elif statements, logical operators.
+| 004 | 09/27/2022 | [Rock paper scissors](/projects/Day004/) | Random module, appending items to lists, nested lists, offset and index errors. |
