@@ -16,3 +16,4 @@ Some of the first projects can be tried via Replit on any web browser. You can f
 | 003 | 09/26/2022 | [Treasure Island](/projects/Day003/) | If / else and conditional operators, elif statements, logical operators.
 | 004 | 09/27/2022 | [Rock paper scissors](/projects/Day004/) | Random module, appending items to lists, nested lists, offset and index errors. |
 | 005 | 09/28/2022 | [Password generator](/projects/Day005/) | For loops, lists, range. |
+| 006 | 09/29/2022 | [Escaping the maze](/projects/Day006/) | Code blocks, functions, indentation, while loops.|
