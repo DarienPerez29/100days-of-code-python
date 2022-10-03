@@ -5,6 +5,10 @@ This is a little rock paper scissors game via terminal where you play against th
 2. Paper
 3. Scissors
 
+**Try it on Replit [here](https://replit.com/@DarienPerez29/rock-paper-scissors?embed=1&output=1).**
+
+![Cover](cover.png)
+
 ## Challenges
 
 Today's challenges are:
