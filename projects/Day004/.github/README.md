@@ -10,5 +10,6 @@ This is a little rock paper scissors game via terminal where you play against th
 Today's challenges are:
 
 | # | Name | Description of challenge |
-| 1 | [Heads or Tails](../challenges//challenge1.py) | This program choose randomly heads or tails. |
-
+| --- | --- | --- |
+| 1 | [Heads or Tails](../challenges//challenge1.py) | This program choose randomly heads or tails.
+| 2 | [Banker Roulette](../challenges//challenge2.py) | The person selected have to pay for the total bill. |
