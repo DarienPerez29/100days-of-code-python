@@ -1,6 +1,10 @@
 # Day 005 project - Password Generator
 
-This is a basic password generator.
+This is a basic password generator that asks for the number of letters `[a-zA-Z]`, numbers `[0-9]`, and symbols `[!#$%&()*+]`, and returns a password with those characteristics.
+
+**Try it on Replit [here](https://replit.com/@DarienPerez29/password-generator?embed=1&output=1).**
+
+![Cover](cover.png)
 
 ## Challenges
 
