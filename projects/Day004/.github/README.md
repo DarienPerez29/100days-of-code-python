@@ -11,5 +11,6 @@ Today's challenges are:
 
 | # | Name | Description of challenge |
 | --- | --- | --- |
-| 1 | [Heads or Tails](../challenges//challenge1.py) | This program choose randomly heads or tails.
-| 2 | [Banker Roulette](../challenges//challenge2.py) | The person selected have to pay for the total bill. |
+| 1 | [Heads or Tails](../challenges/challenge1.py) | This program choose randomly heads or tails.
+| 2 | [Banker Roulette](../challenges/challenge2.py) | The person selected has to pay for the total meal bill. |
+| 3 | [Treasure map](../challenges/challenge3.py) | You'll mark with an "X" the treasure position in a 3x3 map. |
