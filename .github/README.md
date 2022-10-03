@@ -15,3 +15,4 @@ Some of the first projects can be tried via Replit on any web browser. You can f
 | 002 | 09/25/2022 | [Tip calculator](/projects/Day002/) | Primitive data types, type error, type checking, type conversion, mathematical operations, number manipulation, f strings. |
 | 003 | 09/26/2022 | [Treasure Island](/projects/Day003/) | If / else and conditional operators, elif statements, logical operators.
 | 004 | 09/27/2022 | [Rock paper scissors](/projects/Day004/) | Random module, appending items to lists, nested lists, offset and index errors. |
+| 005 | 09/28/2022 | [Password generator](/projects/Day005/) | For loops, lists, range. |
