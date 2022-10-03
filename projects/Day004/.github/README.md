@@ -14,3 +14,5 @@ Today's challenges are:
 | 1 | [Heads or Tails](../challenges/challenge1.py) | This program choose randomly heads or tails.
 | 2 | [Banker Roulette](../challenges/challenge2.py) | The person selected has to pay for the total meal bill. |
 | 3 | [Treasure map](../challenges/challenge3.py) | You'll mark with an "X" the treasure position in a 3x3 map. |
+
+<span style="color:gray">*You can ignore **practice** directory, just contains a few random programs to practice some basic concepts.*</span>
