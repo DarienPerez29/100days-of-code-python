@@ -8,4 +8,5 @@ Today's challenges are:
 
 | # | Name | Description of challenge |
 | --- | --- | --- |
-| 1 | [The Hurdles Loop Challenge](../challenges/challenge1.py) | Make Reeborg run the course following the path shown |
+| 1 | [The Hurdles Loop Challenge](../challenges/challenge1.py) | Make Reeborg run the course following the path shown. |
+| 2 | [Hurdles Challenge using While Loops](../challenges/challenge2.py) | Make Reeborg run the course following the path shown by using while loops. |
