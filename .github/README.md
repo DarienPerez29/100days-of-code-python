@@ -17,3 +17,4 @@ Some of the first projects can be tried via Replit on any web browser. You can f
 | 004 | 09/27/2022 | [Rock paper scissors](/projects/Day004/) | Random module, appending items to lists, nested lists, offset and index errors. |
 | 005 | 09/28/2022 | [Password generator](/projects/Day005/) | For loops, lists, range. |
 | 006 | 09/29/2022 | [Escaping the maze](/projects/Day006/) | Code blocks, functions, indentation, while loops.|
+| 007 | 11/07/2022 | [Hangman project](/projects/Day007/) | For and while loops, if/else statements, lists, strings, range, modules, etc.|
