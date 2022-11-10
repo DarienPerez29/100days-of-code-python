@@ -1,6 +1,10 @@
 # Day 007 project - Hangman Project
 
-This is a little hangman game via terminal where you play by choosing letter by letter.
+This is a little hangman game via terminal where you play by choosing letter by letter. The word to guess is selected randomly by the computer. You have in total **6** lives to play.
+
+**Try it on Replit [here](https://replit.com/@DarienPerez29/hangman-game?embed=1&output=1).**
+
+![Cover](cover.png)
 
 ## Challenges
 
