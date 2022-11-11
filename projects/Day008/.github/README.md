@@ -4,4 +4,6 @@ This is a program to cipher messages using Caesar cipher. You only need to enter
 
 ## Challenges
 
-*Coming soon...*
+| # | Name | Description of the challenge|
+| --- | --- | --- |
+| 1 | [Paint Area Calculator](../challenges/challenge1.py) | Calculate the number of paint cans needed to paint a wall of `x` by `y` meters. |
