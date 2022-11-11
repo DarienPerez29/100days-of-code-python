@@ -7,3 +7,4 @@ This is a program to cipher messages using Caesar cipher. You only need to enter
 | # | Name | Description of the challenge|
 | --- | --- | --- |
 | 1 | [Paint Area Calculator](../challenges/challenge1.py) | Calculate the number of paint cans needed to paint a wall of `x` by `y` meters. |
+| 2 | [Prime Numbers](../challenges/challenge2.py) | Checks whether a number is prime or not. |
