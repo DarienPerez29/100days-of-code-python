@@ -1,6 +1,8 @@
 # Day 008 project - Caesar cipher
 
-This is a program to cipher messages using Caesar cipher. You only need to enter your message, and you'll receive the encrypted string.
+This is a program to encrypt and decrypt messages using Caesar cipher. You can select if you want to *encrypt* or *decrypt* a message, then you enter your message and the shift that you want. Finally the program prints your encrypted or decrypted message and ask if you want to run the program again.
+
+**Try it on Replit [here](https://replit.com/@DarienPerez29/caesar-cipher?embed=1&output=1).**
 
 ## Challenges
 
