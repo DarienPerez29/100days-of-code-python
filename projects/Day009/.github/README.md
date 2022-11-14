@@ -7,3 +7,4 @@ This program works by taking a person's name and their bid; then the program ask
 | # | Name | Challenge description |
 | --- | --- | --- |
 | 1 | [Gradind program](../challenges/challenge1.py) | Write a program that converts students scores of a "database" to grades. |
+| 2 | [Dictionary in List](../challenges/challenge2.py) | Write a program that adds an entry to a travel log. |
