@@ -4,4 +4,6 @@ This program works by taking a person's name and their bid; then the program ask
 
 ## Challenges
 
-*Challenges coming soon*
+| # | Name | Challenge description |
+| --- | --- | --- |
+| 1 | [Gradind program](../challenges/challenge1.py) | Write a program that converts students scores of a "database" to grades. |
