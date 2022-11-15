@@ -20,3 +20,4 @@ Some of the first projects can be tried via Replit on any web browser. You can f
 | 007 | 11/07/2022 | [Hangman project](/projects/Day007/) | For and while loops, if/else statements, lists, strings, range, user defined modules, etc.|
 | 008 | 11/10/2022 | [Caesar cipher](/projects/Day008/) | Functions with inputs, positional vs. keyword arguments, arguments vs. parameters. |
 | 009 | 11/14/2022 | [Secret auction](/projects/Day009/) | Dictionaries, nesting. |
+| 010 | 11/15/2022 | [Calculator](/projects/Day010/) | Functions with outputs, return values, docstrings, flags, recursion. |
