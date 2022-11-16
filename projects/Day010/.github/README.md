@@ -4,4 +4,6 @@ This is a calculator that first asks for a number, then lets you choose an opera
 
 ## Challenges
 
-*Coming soon*
+| # | Name | Challenge description |
+| --- | --- | --- |
+| 1 | [Days in Month](../challenges/challenge1.py) | Write a program that returns the number of days of a month of a year, considering leap years. | 
