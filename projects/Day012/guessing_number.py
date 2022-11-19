@@ -1,3 +1,4 @@
+import art
 import random
 
 number_to_guess = random.randint(1, 100) # Random number defined
@@ -7,6 +8,7 @@ guess = 0
 has_won = False
 
 # Welcome messages
+print(art.logo)
 print("Welcome to the Number Guessing Game!")
 print("I'm thinking of a number between 1 and 100\n")
 
