@@ -17,10 +17,13 @@
 
 ## Global scope
 player_health = 10
+player_magic = 5
 
 def drink_potion():
     potion_strength = 2
+    global player_magic
+    player_magic += 2
     print(potion_strength)
 
 drink_potion()
-print(player_health)
+print(player_health, player_magic)
