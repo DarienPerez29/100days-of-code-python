@@ -14,39 +14,47 @@ def get_deck_sum(deck, hide):
         return deck[0]
     return sum(deck)
 
+# Function to print scoreborad
+def print_scoreboard(is_player_turn):
+    print("=================================================")
+    print(f"Your cards: {get_deck_str(player_cards, False)} \t|| Total: {player_score}")
+    print("-------------------------------------------------")
+    print(f"Computer cards: {get_deck_str(computer_cards, is_player_turn)} \t|| Total: {computer_score}")
+    print("=================================================\n")
+
 # Variables
 player_cards = []
 computer_cards = []
 player_score = 0
 computer_score = 0
 
-hit = True
+player_turn = True
 winner = ""
 
 # initial decks
 for i in range(2):
     player_cards.append(random.choice(cards))
     computer_cards.append(random.choice(cards))
-computer_score = get_deck_sum(computer_cards, True) # Set computer score to display to the player
+computer_score = get_deck_sum(computer_cards, player_turn) # Set computer score to display to the player
 
-# Loop so the player can get more cards
-while hit:
+# =====================================
+# Loop for the player to get more cards
+# =====================================
+while player_turn:
     # The score of the desks is asked
     player_score = get_deck_sum(player_cards, False)
-
-    print("=================================================")
-    print(f"Your cards: {get_deck_str(player_cards, False)} \t|| Total: {player_score}")
-    print("-------------------------------------------------")
-    print(f"Computer cards: {get_deck_str(computer_cards, True)} \t|| Total: {computer_score}")
-    print("=================================================\n")
-
+    
     # If player score is perfect (21), they doesn't need to get more cards
     if player_score == 21:
+        player_turn = False
         break
     # If player score is greater than 21, they automatically loses
     elif player_score > 21:
         winner = "computer"
+        player_turn = False
         break
+
+    print_scoreboard(player_turn)
 
     # If an invalid option is passed, the program asks again
     while True:
@@ -56,25 +64,27 @@ while hit:
             player_cards.append(random.choice(cards))
             break
         elif action == "n" or action == "no":
-            hit = False
+            player_turn = False
             break
         else:
             print("\nPlease, select a valid option...")
+# ===================================== player's turn ends
 
+computer_score = get_deck_sum(computer_cards, player_turn) # Get real computer's score
+
+# If computer already won, the game is over
 if winner == "computer":
+    # End of game 1
+    print_scoreboard(player_turn)
     print("You went over, you lose :C")
-else:
-    computer_score = get_deck_sum(computer_cards, False)
-
-    while computer_score < player_score:
+else:    
+    # Loop for computer turn
+    while computer_score < player_score and computer_score < 17:
         computer_cards.append(random.choice(cards))
         computer_score = get_deck_sum(computer_cards, False)
 
-    print("=================================================")
-    print(f"Your cards: {get_deck_str(player_cards, False)} \t|| Total: {player_score}")
-    print("-------------------------------------------------")
-    print(f"Computer cards: {get_deck_str(computer_cards, False)} \t|| Total: {computer_score}")
-    print("=================================================\n")
+    # End of game 2
+    print_scoreboard(player_turn)
     
     if computer_score > 21:
         print("Opponent went over. You win :D")
