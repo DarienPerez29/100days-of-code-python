@@ -1,5 +1,6 @@
 import os
 import random
+import art
 
 cards = [11, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10] # Queen, King and Jack have a value of 10
 
@@ -21,6 +22,7 @@ def get_deck_sum(deck, hide):
 
 # Function to print scoreborad
 def print_scoreboard(is_player_turn):
+    print(art.logo, "\n\n")
     print("|---------------- SCOREBOARD -------------------|")
     print("=================================================")
     print(f"| Your cards: {get_deck_str(player_cards, False)} \t|| Total: {player_score}")
@@ -87,7 +89,8 @@ computer_score = get_deck_sum(computer_cards, player_turn) # Get real computer's
 if winner == "computer":
     # End of game 1
     print_scoreboard(player_turn)
-    print("You went over, you lose :C")
+    print("\t       You went over...")
+    print(art.loser_icon)
 else:    
     # Loop for computer turn
     while computer_score < player_score and computer_score < 17:
@@ -98,11 +101,12 @@ else:
     print_scoreboard(player_turn)
     
     if computer_score > 21:
-        print("Opponent went over. You win :D")
+        print("\t    Opponent went over.")
+        print(art.winner_icon)
     elif player_score > computer_score:
-        print("You win :D")
+        print(art.winner_icon)
     elif player_score < computer_score:
-        print("You lose :c")
+        print(art.loser_icon)
     elif player_score == computer_score:
         print("Draw!")
         
