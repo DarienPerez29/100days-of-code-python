@@ -1,5 +1,10 @@
+import os
 import art
 import random
+
+# Function to clear screen in windows or linux
+def clear_screen():
+    os.system("cls" if os.name == "nt" else "clear")
 
 number_to_guess = random.randint(1, 100) # Random number defined
 mode = ""
@@ -8,6 +13,7 @@ guess = 0
 has_won = False
 
 # Welcome messages
+clear_screen()
 print(art.logo)
 print("Welcome to the Number Guessing Game!")
 print("I'm thinking of a number between 1 and 100\n")
@@ -27,6 +33,8 @@ while True:
 
 # Guessing section
 while True:
+    clear_screen()
+    
     if lifes >= 1: # Flow if player still has lifes
         print(f"\nYou have {lifes} attempts remaining to guess the number.")
         guess = int(input("Make a guess: "))
@@ -41,7 +49,7 @@ while True:
             break
         
         if lifes > 0:
-            print("Guess again...", lifes)
+            print("Guess again...")
 
     else: # Run out of lifes
         break
