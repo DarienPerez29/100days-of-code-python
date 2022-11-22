@@ -76,9 +76,9 @@
 # 2. Cast to int the age input variable
 # 3. Turn string to f-string of print line
 
-age = int(input("How old are you?"))
-if age > 18:
-    print(f"You can drive at age {age}.")
+# age = int(input("How old are you?"))
+# if age > 18:
+#     print(f"You can drive at age {age}.")
 
 ###################################################################
 
@@ -89,6 +89,20 @@ if age > 18:
 # word_per_page == int(input("Number of words per page: "))
 # total_words = pages * word_per_page
 # print(total_words)
+
+### SOLUTION
+# 'word_per_page' variable is using a logical operator instead of
+# the assignment operator
+# R: Change '==' to '='
+
+pages = 0
+word_per_page = 0
+pages = int(input("Number of pages: "))
+word_per_page = int(input("Number of words per page: "))
+total_words = pages * word_per_page
+print(total_words)
+
+###################################################################
 
 # #Use a Debugger
 # def mutate(a_list):
