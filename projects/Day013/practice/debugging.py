@@ -58,11 +58,11 @@
 # R: Modify if or elif statement to include 1994 using
 # <= or >=
 
-year = int(input("What's your year of birth?"))
-if year > 1980 and year < 1994:
-  print("You are a millenial.")
-elif year >= 1994:
-  print("You are a Gen Z.")
+# year = int(input("What's your year of birth?"))
+# if year > 1980 and year < 1994:
+#   print("You are a millenial.")
+# elif year >= 1994:
+#   print("You are a Gen Z.")
 
 ###################################################################
 
@@ -70,6 +70,17 @@ elif year >= 1994:
 # age = input("How old are you?")
 # if age > 18:
 # print("You can drive at age {age}.")
+
+### SOLUTION
+# 1. Set the correct indentation of print line
+# 2. Cast to int the age input variable
+# 3. Turn string to f-string of print line
+
+age = int(input("How old are you?"))
+if age > 18:
+    print(f"You can drive at age {age}.")
+
+###################################################################
 
 # #Print is Your Friend
 # pages = 0
