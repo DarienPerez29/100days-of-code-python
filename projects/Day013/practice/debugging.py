@@ -39,10 +39,10 @@
 # so that's why it throws an error
 # R: Change the range of the randint
 
-from random import randint
-dice_imgs = ["❶", "❷", "❸", "❹", "❺", "❻"]
-dice_num = randint(0, 5)
-print(dice_imgs[dice_num])
+# from random import randint
+# dice_imgs = ["❶", "❷", "❸", "❹", "❺", "❻"]
+# dice_num = randint(0, 5)
+# print(dice_imgs[dice_num])
 
 ###################################################################
 
@@ -52,6 +52,19 @@ print(dice_imgs[dice_num])
 #   print("You are a millenial.")
 # elif year > 1994:
 #   print("You are a Gen Z.")
+
+### SOLUTION
+# Year 1994 it's not included in the if block
+# R: Modify if or elif statement to include 1994 using
+# <= or >=
+
+year = int(input("What's your year of birth?"))
+if year > 1980 and year < 1994:
+  print("You are a millenial.")
+elif year >= 1994:
+  print("You are a Gen Z.")
+
+###################################################################
 
 # # Fix the Errors
 # age = input("How old are you?")
