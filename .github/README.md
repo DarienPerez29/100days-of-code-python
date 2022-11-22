@@ -23,3 +23,4 @@ Some of the first projects can be tried via Replit on any web browser. You can f
 | 010 | 11/15/2022 | [Calculator](/projects/Day010/) | Functions with outputs, return values, docstrings, flags, recursion. |
 | 011 | 11/16/2022 | [Blackjack Capstone Project](/projects/Day011) | General review. |
 | 012 | 11/19/2022 | [The Number Guessing Game](/projects/Day012) | Local vs. global scope. |
+| 013 | 11/21/2022 | [Debugging] | Debugging (no project). |
