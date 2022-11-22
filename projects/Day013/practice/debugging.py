@@ -17,19 +17,34 @@
 #   "You got it" never gets printed.
 # A: Increment the max value of range to 21
 
-def my_function():
-  for i in range(1, 21):
-    if i == 20:
-      print("You got it")
-my_function()
+# def my_function():
+#   for i in range(1, 21):
+#     if i == 20:
+#       print("You got it")
+# my_function()
 
 ###################################################################
 
-# # Reproduce the Bug
+# Reproduce the Bug
 # from random import randint
 # dice_imgs = ["❶", "❷", "❸", "❹", "❺", "❻"]
 # dice_num = randint(1, 6)
 # print(dice_imgs[dice_num])
+
+### SOLUTION
+# The 'dice_num' variable stores the index of the element that 
+# is going to be accesed in the 'dice_imgs' list, and it gets a 
+# random number between 1 and 6, so the element at position 0
+# nevet gets accesed, and the element at position 6 doesn't exists,
+# so that's why it throws an error
+# R: Change the range of the randint
+
+from random import randint
+dice_imgs = ["❶", "❷", "❸", "❹", "❺", "❻"]
+dice_num = randint(0, 5)
+print(dice_imgs[dice_num])
+
+###################################################################
 
 # # Play Computer
 # year = int(input("What's your year of birth?"))
