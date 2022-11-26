@@ -23,14 +23,40 @@ input("         Press a key to continue...")
 # Init variables with default values
 option_a = random.choice(gd.data)
 option_b = {}
+score_a = 0
+score_b = 0
+final_score = 0
 
 # Loop for playing until lose
 has_lost = False
 while not has_lost:
     option_b = random.choice(gd.data)
+    score_a = option_a['follower_count']
+    score_b = option_b['follower_count']
 
     print_formatted_option(option_a)
-    print("\tvs")
+    print("====== vs =======")
     print_formatted_option(option_b)
 
-    break
+    # Loop for requset for a valid response
+    while True:
+        print(f">> Does \"{option_b['name']}\" have higher ", end="")
+        print(f"or lower followers than \"{option_a['name']}\"?")
+
+        answer = input("   (Type higher or lower): ")
+
+        if answer != "higher" and answer != "lower":
+            print("\nPlease select a valid option...")
+        else:
+            break
+
+    if (answer == "higher" and score_b >= score_a # Checks for higher
+            or answer == "lower" and score_b <= score_a): # Checks for lower
+        print("Correct")
+        final_score += 1
+        option_a = option_b
+    else:
+        print("You lose")
+        has_lost = True
+
+print(f"Your final score is: {final_score}")
