@@ -2,14 +2,21 @@ import random
 import modules.art as art
 import modules.data as gd
 
-# Function to print data in a formatted way
-def print_formatted_option(data):
-    print(f"""
-\"{data['name'].upper()}\"
-{data['description']}
-has
-{data['follower_count']},000,000 followers
-""")
+# Function to print data of an option in a formatted way
+def print_formatted_option(data, show_followers):
+    print(f"\n\"{data['name'].upper()}\"")
+    print(f"{data['description']}")
+
+    if show_followers:
+        print(f"has {data['follower_count']},000,000 followers")
+
+    print()
+
+# Function to print both options, a and b
+def print_options(op_a, op_b):
+    print_formatted_option(op_a, True)
+    print("====== vs =======")
+    print_formatted_option(op_b, False)
 
 print(art.logo)
 
@@ -34,9 +41,7 @@ while not has_lost:
     score_a = option_a['follower_count']
     score_b = option_b['follower_count']
 
-    print_formatted_option(option_a)
-    print("====== vs =======")
-    print_formatted_option(option_b)
+    print_options(option_a, option_b)
 
     # Loop for requset for a valid response
     while True:
@@ -50,13 +55,19 @@ while not has_lost:
         else:
             break
 
+    # Check answer of player
     if (answer == "higher" and score_b >= score_a # Checks for higher
             or answer == "lower" and score_b <= score_a): # Checks for lower
-        print("Correct")
+        print("\n=== Correct ===")
         final_score += 1
         option_a = option_b
     else:
-        print("You lose")
+        print("\n=== You lose ===")
         has_lost = True
+    print(f"{option_b['name']} has {option_b['follower_count']} million followers")
 
-print(f"Your final score is: {final_score}")
+
+print(f"""
+========================================
+\tYour final score is: {final_score}  
+========================================""")
