@@ -48,7 +48,12 @@ score = 0
 has_lost = False
 while not has_lost:
 
-    option_b = random.choice(gd.data)
+    # Loop to select a different account
+    while True:
+        option_b = random.choice(gd.data)
+        if option_b['name'] != option_a['name']:
+            break
+        
     score_a = option_a['follower_count']
     score_b = option_b['follower_count']
 
