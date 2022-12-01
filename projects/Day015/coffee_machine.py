@@ -56,7 +56,8 @@ while run_machine:
         # Flow if enough resources
         if enough_resources:
             option_cost = menu[option]['cost']
-            print(f"{option.capitalize()} has a cost of ${option_cost}")
+            print(f"{option.capitalize()} has a cost of ", end="")
+            print(f"${'{:.2f}'.format(option_cost)}")
 
             # Capture inserted coins
             print(f"\nPlease insert coins...")
@@ -65,7 +66,7 @@ while run_machine:
             nickels = int(input(">> How many nickels?: ")) * 0.5
             pennies = int(input(">> How many pennies?: ")) * 0.25
             total_input = quarters + dimes + nickels + pennies
-            print(f"Your balance: ${total_input}")
+            print(f"Your balance: ${'{:.2f}'.format(total_input)}")
 
             # Check if money inserted is enough
             if total_input >= option_cost:
@@ -73,7 +74,7 @@ while run_machine:
                 print()
 
                 if change > 0:
-                    print(f"<< Here's your change: ${change}")
+                    print(f"<< Here's your change: ${'{:.2f}'.format(change)}")
 
                 # Update machine values
                 for resource in resources:
