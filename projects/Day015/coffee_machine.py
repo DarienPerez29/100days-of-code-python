@@ -1,11 +1,9 @@
+import modules.machine_config as m_conf
+
 # Init machine variables
 run_machine = True
-resources = {
-    "water": 300,
-    "milk": 200,
-    "coffee": 100,
-    "money": 0
-}
+resources = m_conf.resources
+menu = m_conf.MENU
 
 
 def print_resources():
@@ -27,3 +25,8 @@ while run_machine:
         run_machine = False
     elif option == "report":
         print_resources()
+    elif option in menu.keys():
+        ingredients = menu[option]["ingredients"]
+
+    else:
+        print("\nPlease, select a valid option")
