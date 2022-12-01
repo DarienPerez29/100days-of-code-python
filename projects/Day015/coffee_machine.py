@@ -19,7 +19,7 @@ def print_resources():
 
 
 while run_machine:
-    enough_resources = False
+    enough_resources = True
 
     # Init inserted coins
     quarters = 0
@@ -48,15 +48,15 @@ while run_machine:
 
         # Checking for resources
         for ingredient in ingredients:
-            if ingredients[ingredient] <= resources[ingredient]:
-                enough_resources = True
-            else:
-                print(f"Sorry, there is not enough {ingredient}.")
+            if ingredients[ingredient] > resources[ingredient]:
+                print(f"<!> Sorry, there is not enough {ingredient}.")
+                enough_resources = False
+        print()
 
         # Flow if enough resources
         if enough_resources:
             option_cost = menu[option]['cost']
-            print(f"\n{option.capitalize()} has a cost of ${option_cost}")
+            print(f"{option.capitalize()} has a cost of ${option_cost}")
 
             # Capture inserted coins
             print(f"\nPlease insert coins...")
@@ -65,7 +65,7 @@ while run_machine:
             nickels = int(input(">> How many nickels?: ")) * 0.5
             pennies = int(input(">> How many pennies?: ")) * 0.25
             total_input = quarters + dimes + nickels + pennies
-            print(f"Your total: ${total_input}")
+            print(f"Your balance: ${total_input}")
 
             # Check if money inserted is enough
             if total_input >= option_cost:
@@ -85,7 +85,7 @@ while run_machine:
                 print(f"<< Here's your {option} ☕. Enjoy!\n")
 
             else:
-                print("\nSorry, that's not enough money. Money refounded.\n")
+                print("\n<!> Sorry, that's not enough money. Money refounded.\n")
 
     # ====== Invalid option ======
     else:
