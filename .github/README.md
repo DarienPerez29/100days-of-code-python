@@ -24,4 +24,5 @@ Some of the first projects can be tried via Replit on any web browser. You can f
 | 011 | 11/16/2022 | [Blackjack Capstone Project](/projects/Day011) | General review. |
 | 012 | 11/19/2022 | [The Number Guessing Game](/projects/Day012) | Local vs. global scope. |
 | 013 | 11/21/2022 | [Debugging](/projects/Day013) | Debugging (no project). |
-| 014 | 11/24/2022 | [Higher or lower](projects/Day014) | Applying all knowledge acquided at the moment. |
+| 014 | 11/24/2022 | [Higher or lower](/projects/Day014) | Applying all knowledge acquired at the moment. |
+| 015 | 11/30/2022 | [Coffee Machine](/projects/Day015/) | Applying all knowledge acquired at the moment. |
