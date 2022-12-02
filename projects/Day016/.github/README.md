@@ -2,6 +2,8 @@
 
 This program simulates a coffee machine via terminal. It's like the previous project, but implementing OOP.
 
+**Try it on Replit [here](https://replit.com/@DarienPerez29/Coffee-Machine-OOP?embed=1&output=1).**
+
 ### Functions of the "Coffee Machine"
 1. Asks what type of coffee do you like (espresso/latte/cappuccino).
 2. Checks if resources are sufficient for making the selected coffee.
