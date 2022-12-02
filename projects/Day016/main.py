@@ -9,11 +9,26 @@ my_money_machine = MoneyMachine()
 machine_running = True
 
 while machine_running:
-    command = input(">> What would you like? (espresso/latte/cappuccino): ")
+    command = input(
+        ">> What would you like? (espresso/latte/cappuccino): ").lower()
+
+    print()
+
     if command == "off":
-        print("\nTurning machine off...")
+        print("Turning machine off...")
         machine_running = False
+
     elif command == "report":
         my_coffee_mkr.report()
+        my_money_machine.report()
+        print()
+
+    elif command in my_menu.get_items():
+        ordered_drink = my_menu.find_drink(command)
+
+        if my_coffee_mkr.is_resource_sufficient(ordered_drink):
+
+            print("Sufficint resources. Asking for coins... [WIP]")
+
     else:
-        print("\nPlease insert a valid option...")
+        print("Please insert a valid option...")
