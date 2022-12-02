@@ -21,8 +21,9 @@ Some of the first projects can be tried via Replit on any web browser. You can f
 | 008 | 11/10/2022 | [Caesar cipher](/projects/Day008/) | Functions with inputs, positional vs. keyword arguments, arguments vs. parameters. |
 | 009 | 11/14/2022 | [Secret auction](/projects/Day009/) | Dictionaries, nesting. |
 | 010 | 11/15/2022 | [Calculator](/projects/Day010/) | Functions with outputs, return values, docstrings, flags, recursion. |
-| 011 | 11/16/2022 | [Blackjack Capstone Project](/projects/Day011) | General review. |
-| 012 | 11/19/2022 | [The Number Guessing Game](/projects/Day012) | Local vs. global scope. |
-| 013 | 11/21/2022 | [Debugging](/projects/Day013) | Debugging (no project). |
-| 014 | 11/24/2022 | [Higher or lower](/projects/Day014) | Applying all knowledge acquired at the moment. |
+| 011 | 11/16/2022 | [Blackjack Capstone Project](/projects/Day011/) | General review. |
+| 012 | 11/19/2022 | [The Number Guessing Game](/projects/Day012/) | Local vs. global scope. |
+| 013 | 11/21/2022 | [Debugging](/projects/Day013/) | Debugging (no project). |
+| 014 | 11/24/2022 | [Higher or lower](/projects/Day014/) | Applying all knowledge acquired at the moment. |
 | 015 | 11/30/2022 | [Coffee Machine](/projects/Day015/) | Applying all knowledge acquired at the moment. |
+| 016 | 12/01/2022 | [OOP Coffee Machine](/projects/Day016/) | OOP, objects, attributes, methods, packages, PyPi. |
