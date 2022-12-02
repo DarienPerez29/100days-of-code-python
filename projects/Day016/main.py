@@ -24,11 +24,12 @@ while machine_running:
         print()
 
     elif command in my_menu.get_items():
-        ordered_drink = my_menu.find_drink(command)
+        ordered_coffee = my_menu.find_drink(command)
 
-        if my_coffee_mkr.is_resource_sufficient(ordered_drink):
-
-            print("Sufficint resources. Asking for coins... [WIP]")
+        if my_coffee_mkr.is_resource_sufficient(ordered_coffee):
+            drink_cost = ordered_coffee.cost
+            my_money_machine.make_payment(drink_cost)
+            my_coffee_mkr.make_coffee(ordered_coffee)
 
     else:
         print("Please insert a valid option...")
