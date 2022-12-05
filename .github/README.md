@@ -27,3 +27,4 @@ Some of the first projects can be tried via Replit on any web browser. You can f
 | 014 | 2022-11-24 | [Higher or lower](/projects/Day014/) | Applying all knowledge acquired at the moment. |
 | 015 | 2022-11-30 | [Coffee Machine](/projects/Day015/) | Applying all knowledge acquired at the moment. |
 | 016 | 2022-12-01 | [OOP Coffee Machine](/projects/Day016/) | OOP, objects, attributes, methods, packages, PyPi. |
+| 017 | 2022-12-04 | [Quiz Game](/projects/Day017/) | OOP, classes, attributes, constructors, \_\_init\_\_() function, methods. |
