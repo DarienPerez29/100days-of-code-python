@@ -10,3 +10,4 @@
 | 2 | [Draw a dashed line](../challenges/challenge2.py) | Draw a dashed line using Turtle module. |
 | 3 | [Drawing different shapes](../challenges/challenge3.py) | Draw polygons from 3 to 10 sides using Turtle module. |
 | 4 | [Generate a random walk](../challenges/challenge4.py) | Draw a random walk using Turtle module. |
+| 5 | [Draw a Spirograph](../challenges/challenge5.py) | Draw a Spirograph using circles. |
