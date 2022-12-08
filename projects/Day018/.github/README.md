@@ -8,3 +8,4 @@
 | --- | --- | --- |
 | 1 | [Draw a square](../challenges/challenge1.py) | Draw a square using Turtle module. |
 | 2 | [Draw a dashed line](../challenges/challenge2.py) | Draw a dashed line using Turtle module |
+| 3 | [Drawing different shapes](../challenges/challenge3.py) | Draw polygons from 3 to 10 sides using Turtle module. |
