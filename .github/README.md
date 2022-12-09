@@ -28,4 +28,4 @@ Some of the first projects can be tried via Replit on any web browser. You can f
 | 015 | 2022-11-30 | [Coffee Machine](/projects/Day015/) | Applying all knowledge acquired at the moment. |
 | 016 | 2022-12-01 | [OOP Coffee Machine](/projects/Day016/) | OOP, objects, attributes, methods, packages, PyPi. |
 | 017 | 2022-12-04 | [Quiz Game](/projects/Day017/) | OOP, classes, attributes, constructors, \_\_init\_\_() function, methods. |
-| 018 | 2022-12-07 | [The Hirst Painting Project] | Turtle graphics, tuples and importing modules |
+| 018 | 2022-12-07 | [The Hirst Painting Project](/projects/Day018/) | Turtle graphics, tuples and importing modules |
