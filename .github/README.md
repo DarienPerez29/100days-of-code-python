@@ -31,3 +31,4 @@ Some of the first projects can be tried via Replit on any web browser. You can f
 | 018 | 2022-12-07 | [The Hirst Painting Project](/projects/Day018/) | Turtle graphics, tuples and importing modules |
 | 019 | 2022-12-08 | [Etch a Sketch & Turtle Racing](/projects/Day019/) | Instances, State and Higher Order Functions |
 | 020 | 2022-12-18 | [Snake Game (Part 1)](/projects/Day020/) | Screen setup, snake body, animating snake, keypress. |
+| 021 | 2022-12-23 | [Snake Game (Part 2)](/projects/Day021/) | Inheritance, list slicing, finishing snake game |
