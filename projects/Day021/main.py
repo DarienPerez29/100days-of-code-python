@@ -3,7 +3,7 @@ from snake import Snake
 from food import Food
 from scoreboard import Scoreboard
 
-
+# Comment from wsl
 s = Screen()
 s.setup(600, 600)
 s.bgcolor("black")
