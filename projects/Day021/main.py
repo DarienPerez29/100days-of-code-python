@@ -9,18 +9,21 @@ s.bgcolor("black")
 s.title("Snake Game")
 s.tracer(0)
 
-my_s = Snake()
-my_f = Food()
+snake = Snake()
+food = Food()
 
 s.listen()
-s.onkey(my_s.up, "Up")
-s.onkey(my_s.down, "Down")
-s.onkey(my_s.left, "Left")
-s.onkey(my_s.right, "Right")
+s.onkey(snake.up, "Up")
+s.onkey(snake.down, "Down")
+s.onkey(snake.left, "Left")
+s.onkey(snake.right, "Right")
 
 on_game = True
 while on_game:
     s.update()
-    my_s.move()
+    snake.move()
+
+    if snake.head.distance(food) < 12:
+        food.new_pos()
 
 s.exitonclick()
