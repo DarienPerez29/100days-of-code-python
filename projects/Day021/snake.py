@@ -1,7 +1,7 @@
 from time import sleep
 from turtle import Turtle
 
-MOVING_DISTANCE = 25
+MOVING_DISTANCE = 20
 SPEED = 0.1
 
 

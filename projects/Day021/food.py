@@ -13,6 +13,6 @@ class Food(Turtle):
         self.new_pos()
 
     def new_pos(self):
-        rx = random.randint(-11, 11) * 25
-        ry = random.randint(-11, 11) * 25
+        rx = random.randint(-14, 14) * 20
+        ry = random.randint(-14, 14) * 20
         self.goto(rx, ry)
