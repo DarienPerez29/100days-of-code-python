@@ -10,6 +10,6 @@ class Food(Turtle):
         self.shapesize(0.5, 0.5)
         self.color("cyan")
         self.speed(0)
-        rx = random.randint(-280, 280)
-        ry = random.randint(-280, 280)
+        rx = random.randint(-11, 11) * 25
+        ry = random.randint(-11, 11) * 25
         self.goto(rx, ry)
